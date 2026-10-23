@@ -3,6 +3,6 @@
 // Точка входа в программу.
 int main() {
     const char* greeting = "Hello";
-    std::cout << greeting << std::endl;
+    std::cout << greeting << '\n';
     return 0;
 }
