@@ -1,6 +1,8 @@
 #include <iostream>
 
+// Точка входа в программу.
 int main() {
-    std::cout << "Hello" << std::endl;
+    const char* greeting = "Hello";
+    std::cout << greeting << '\n';
     return 0;
 }
